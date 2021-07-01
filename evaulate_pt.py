@@ -91,7 +91,7 @@ if __name__=="__main__":
       column_list = ["action", "object", "location"]
     
     for column_name in column_list:
-      valid_data = pd.read_csv(f"{path}/valid_data.csv")
+      valid_data = pd.read_csv(f"{path}")
       valid_data = get_encoding(valid_data, column_name)
 
       vocab_list = vocab()

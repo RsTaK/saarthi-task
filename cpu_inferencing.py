@@ -18,7 +18,7 @@ def argp():
                         help='Pass audio else Enter None')
 
     parser.add_argument('fm',
-                        help='Pytorch or Tensorflow model for inference')
+                        help='pt or tf for inference')
 
     args = parser.parse_args()
     return args.text, args.audio, args.fm
