@@ -15,7 +15,9 @@
 Given the audio data and transcription of the audio data, action that needs to be taken, action to be taken on which object and location where that object is present.
 
 > Achieved F1 score of 1.0 on validation data (Text) for all required columns
+
 > Achieved WER (Word Error Rate) of aproxx 5.8% on validation audio data for Speech to Text
+
 > Added DVC for data and model versioning
 
 Task is performed in PyTorch as well as in Tensorflow with custom models with the support of Tensorboard. HuggingFace is used to traing Speech to text engine. 
